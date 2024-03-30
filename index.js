@@ -1,3 +1,22 @@
+// let userEmail = prompt("Enter your email: ");
+// let userName = prompt("Enter your name: ");
+
+// if (userEmail === "hojiakbar7796@mail.ru" && userName === "Khojiakbar"){
+//    alert("Welcome to the website!");
+
+//    let userAge = prompt("Enter your age: ")
+//    if (userAge > 18){
+//       alert("You are available to stay in this website.")
+//    }else{
+//       alert("You had better leave this website, sorry.")
+//    }
+// }else {
+//    alert("Email or password is invalid! Try one more time.")
+// }
+
+// let person = prompt("Enter ")
+
+
 // object
 /*
 
@@ -212,7 +231,7 @@ console.log(person.address.country); */
 // let qoldiq = N % 60;
 // let M = (N - qoldiq) / 60;
 
-// alert("Kun boshidan " + M + " daqiqa minut otdi.");
+// alert("Kun boshidan " + M + " daqiqa otdi.");
 
 
 // Integer 20
