@@ -57,11 +57,67 @@
 // ------
 // FOR-6
 
-let candyPrice = 25000;
+// let candyPrice = 25000.89;
 
-for(let i = 1; i <= 10; i++){
-      console.log(i/10 + " kg konfetning narxi " + candyPrice * i/10 + "so'm.");
-}
+// for(let i = 10+1; i <= 20; i++){
+//    if(i%2==0){
+//       console.log(i/10 + " kg konfetning narxi " + candyPrice * i/10 + "so'm.");
+//    }
+// }
+
+
+// ------
+// FOR-7
+
+// let a = 2;
+// let b = 9;
+// let sum = 0;
+
+// for(let i = a; i < b; i++){
+//    console.log(i);
+//    sum+=i
+// }
+// console.log(`Sum of i's value: ${sum}`);
+
+
+// ------
+// FOR-8 !
+
+// let a = prompt("Enter a number smaller than next number: ")*1;
+// let b = prompt("Enter a number bigger than previous number: ")*1;
+// let sum = 1;
+
+// for(let i = a; i < b+1; i++){
+//    sum *= i;
+// }
+// console.log(`Sum of multiplication between a and b: ${sum}.`);
+
+
+// ------
+// FOR-9
+
+// let a = prompt("Enter a number(a<b): ")*1;
+// let b = prompt("Enter a number(a<b): ")*1;
+// let sum = 0;
+
+// for(let i = a; i < b; i++){
+//    sum += i * i;
+//    console.log(i);
+// }
+// console.log(`Sum of square of numbers between a and b: ${sum}`);
+
+
+// ------
+// FOR-10
+
+// let n = prompt("Enter a number: ")*1;
+// let sum = 0;
+// for(let i = 0+1; i <= n; i++){
+//    sum += 1 / i;
+//    console.log(i, sum);
+// }
+// console.log(sum);
+
 
 
 
