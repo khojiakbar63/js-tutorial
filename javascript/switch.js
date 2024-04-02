@@ -1,3 +1,4 @@
+
 // 1. CALCULATOR USING SWITCH CASE\
 // let operator = prompt('Enter a operator[ / , * , + , -]: ');
 // let num1 = prompt("Enter a number: ");
@@ -136,3 +137,54 @@
 //       phoneName = "Invalid phone type";
 // }
 // console.log(`I want to buy ${phoneName}.`);
+
+
+// 6. CHOOSING A SEASON USING SWITCH CASE\
+
+// let month = prompt("Enter a month number[1-12]: ")*1;
+
+// switch (month){
+//    case 12: console.log("Winter, December");
+//    break;
+//    case 1: console.log("Winter, January");
+//    break;
+//    case 2: console.log("Winter, February");
+//    break;
+
+//    case 3: console.log("Spring, March");
+//    break;
+//    case 4: console.log("Spring, April");
+//    break;
+//    case 5: console.log("Spring, May");
+//    break;
+   
+//    case 6: console.log("Summer, June");
+//    break;
+//    case 7: console.log("Summer, July");
+//    break;
+//    case 8: console.log("Summer, August");
+//    break;
+
+//    case 9: console.log("Autumn, September");
+//    break;
+//    case 10: console.log("Autumn, October");
+//    break;
+//    case 11: console.log("Autumn, November");
+//    break;
+
+//    default: console.log("Invalid month");
+// }
+
+// const gender = prompt("Enter your gender [M/F]:")
+
+// switch (gender){
+//    case "M":
+//       console.log("Male");
+//       break;
+//    case "F":
+//       console.log("Female");
+//       break;
+//    default:
+//       console.log("Invalid gender");
+//       break;
+// }
