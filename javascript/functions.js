@@ -72,7 +72,7 @@ function findAge(currentYear, birthYear){
 
 // ===============================================
 // 3. FINDING RATIO OF EVEN AND ODD NUMBERS
-let n = prompt("Enter a number: ")*1;
+// let n = prompt("Enter a number: ")*1;
 // nested function
 function maxSum(sumEven, sumOdd){
     if(sumEven > sumOdd){
@@ -102,7 +102,7 @@ function findRatio(n){
     // nested function
     maxSum(sumEven, sumOdd)
 }
-findRatio(n)
+// findRatio(n)
 // ===============================================
 
 // ===============================================
