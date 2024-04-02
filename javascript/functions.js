@@ -108,53 +108,53 @@ function findRatio(n){
 // ===============================================
 // 4. FINDING THE OPERATOR BY INSERTING THE NUMBER CODE
 // ===============================================
-// let operator = prompt("Enter a number code[93, 94, 55, 97, 88, 90, 91, 98, 95, 99, 77, 33]: ")*1;
+let operator = prompt("Enter a number code[93, 94, 55, 97, 88, 90, 91, 98, 95, 99, 77, 33]: ")*1;
 
-function findOperator(operator){
+function findOperator(string,operator,str){
 
     switch (operator){
         case 93:
-            console.log("UCELL");
+            console.log(string+"UCELL"+str);
             break;
         case 94:
-            console.log("UCELL");
+            console.log(string+"UCELL"+str);
             break;
         case 55:
-            console.log("UCELL");
+            console.log(string+"UCELL"+str);
             break;
         case 97:
-            console.log("MobiUz ");
+            console.log(string+"MobiUz"+str);
             break;
         case 88:
-            console.log("MobiUz");
+            console.log(string+"MobiUz"+str);
             break;
         case 90:
-            console.log("BEELINE");
+            console.log(string+"BEELINE"+str);
             break;
         case 91:
-            console.log("BEELINE");
+            console.log(string+"BEELINE"+str);
             break;
         case 98:
-            console.log("PERFECTUM MOBILE");
+            console.log(string+"PERFECTUM MOBILE"+str);
             break;
         case 95:
-            console.log("UZMOBILE");
+            console.log(string+"UZMOBILE"+str);
             break;
         case 99:
-            console.log("UZMOBILE");
+            console.log(string+"UZMOBILE"+str);
             break;
         case 77:
-            console.log("UZMOBILE");
+            console.log(string+"UZMOBILE"+str);
             break;
         case 33:
-            console.log("Humans");
+            console.log(string+"Humans"+str);
             break;
         default:
             console.log("Invalid operator code");
     }
     
 }
-// findOperator(operator);
+findOperator("Your operator is ", operator, ".");
 
 
 
