@@ -72,14 +72,14 @@ function findAge(currentYear, birthYear){
 
 // ===============================================
 // 3. FINDING RATIO OF EVEN AND ODD NUMBERS
-// let n = prompt("Enter a number: ")*1;
+let n = prompt("Enter a number: ")*1;
 // nested function
 function maxSum(sumEven, sumOdd){
     if(sumEven > sumOdd){
-        let ratio = sumEven - sumOdd;
+        let ratio = sumEven / sumOdd;
         console.log(`Sum of even numbers is greater by ${ratio} than sum of odd numbers.`);
     }else if(sumEven < sumOdd){
-        ratio = sumOdd - sumEven;
+        ratio = sumOdd / sumEven;
         console.log(`Sum of odd numbers is greater by ${ratio} than sum of even numbers.`);
     }
 }
@@ -102,13 +102,13 @@ function findRatio(n){
     // nested function
     maxSum(sumEven, sumOdd)
 }
-// findRatio(n)
+findRatio(n)
 // ===============================================
 
 // ===============================================
 // 4. FINDING THE OPERATOR BY INSERTING THE NUMBER CODE
 // ===============================================
-let operator = prompt("Enter a number code[93, 94, 55, 97, 88, 90, 91, 98, 95, 99, 77, 33]: ")*1;
+// let operator = prompt("Enter a number code[93, 94, 55, 97, 88, 90, 91, 98, 95, 99, 77, 33]: ")*1;
 
 function findOperator(string,operator,str){
 
@@ -154,7 +154,7 @@ function findOperator(string,operator,str){
     }
     
 }
-findOperator("Your operator is ", operator, ".");
+// findOperator("Your operator is ", operator, ".");
 
 
 
