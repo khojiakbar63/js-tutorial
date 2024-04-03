@@ -96,11 +96,11 @@ function findRatio(n){
 
     }
 
-    console.log(`Sum of even numbers: ${sumEven}`);
-    console.log(`Sum of odd numbers: ${sumOdd}`);
+    // console.log(`Sum of even numbers: ${sumEven}`);
+    // console.log(`Sum of odd numbers: ${sumOdd}`);
 
     // nested function
-    maxSum(sumEven, sumOdd)
+    // maxSum(sumEven, sumOdd)
 }
 // findRatio(n)
 // ===============================================
@@ -157,9 +157,6 @@ function findOperator(string,operator,str){
 // findOperator("Your operator is ", operator, ".");
 
 
-
-
-
 // ===============================================
 // GREETING FUNCTION
 
@@ -179,3 +176,75 @@ function findOperator(string,operator,str){
 // }
 // console.log(maxNumber(1, 3));
 // ===============================================
+
+
+// ===============================================
+// THREE FUNCTION TYPES 
+
+
+// 1. Function declaration  
+// function functionName(){
+    // your code 
+// }
+// example:
+// first 
+let age
+function knowAge(age){
+    // let currentYear = +prompt('Enter the current year: ');
+    // let birthYear = +prompt('Enter your birth year: ');
+    age = currentYear - birthYear;
+
+    console.log(`Your age is ${age} .`); 
+}
+// knowAge(age);
+
+
+// ==  ==  ==  ==  ==  ==  ==  ==  ==  ==  ==  ==
+
+// 2. Function expression
+// const functionName = function(){
+    // your code
+// }
+
+// example:
+// first
+const sayHello = function(){
+    // let name = prompt("What is your name?");
+    console.log(`${name}, hello.`);
+}
+// sayHello();
+// ==  ==  ==  ==  ==  ==  ==  ==  ==  ==  ==  ==
+
+// 3. Arrow function
+const functionName = ()=>{
+    // your code
+}
+
+// example:
+// first
+const tellYourMood = ()=> {
+    let mood = prompt("How is your mood? [happy, sad, angry, bored");
+    if(mood == 'happy'){
+        console.log('I am happy to hear that.');
+    }else if(mood == 'sad')
+        console.log('I am sorry to hear that.');
+    else if(mood == 'angry')
+        console.log('Please calm down.');
+    else if(mood == 'bored')
+        console.log('Do something usefull.');
+    // console.log(`Your mood is ${mood}.`);
+}
+tellYourMood();
+// ==  ==  ==  ==  ==  ==  ==  ==  ==  ==  ==  ==
+
+
+
+
+
+
+
+
+
+
+
+
