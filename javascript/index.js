@@ -1,3 +1,56 @@
+function addFrontArray(arr, element){
+   arr.length = 13;
+   return arr
+}
+// console.log(addFrontArray([1, 2, 3, 4, 5]));
+
+
+// function findElement (array, element){
+//    if(element < 0 || element > array.length){
+//       return "Invalid input!"
+//    }else{
+//       return array[element]
+//    }
+// }
+// console.log(findElement([1, 2, 3, 4, 5], 20));
+
+
+// const numbers = [6, 25, 91, 23, 72, 9, 18, 6];
+// const check = 23;
+// let available;
+// for (let i = 0; i < numbers.length; i++){
+//    if (numbers[i] === check){
+//       available = true;
+//       if(available === true){
+//          console.log(`${check} arrayda mavjud.`);
+//       }
+//    }
+//    console.log(`${check} mavjud emas.`);
+// }
+
+
+// const numbers = [6, 25, 91, 23, 72, 9, 18, 6];
+
+// console.log(numbers[numbers.length] = 13)
+
+// console.log(numbers);
+
+
+// for(let i = 0; i < numbers.length; i++){
+//    if(numbers[i] === num){
+//       console.log(numbers[i]); 
+//       if(numbers[i] !== num){
+//          console.log(`${num} arrayda mavjud emas.`);
+//       }
+//    }
+ 
+// }
+
+
+
+
+
+
 // let userEmail = prompt("Enter your email: ");
 // let userName = prompt("Enter your name: ");
 

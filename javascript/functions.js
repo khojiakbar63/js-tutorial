@@ -223,7 +223,7 @@ const functionName = ()=>{
 // example:
 // first
 const tellYourMood = ()=> {
-    let mood = prompt("How is your mood? [happy, sad, angry, bored");
+    // let mood = prompt("How is your mood? [happy, sad, angry, bored");
     if(mood == 'happy'){
         console.log('I am happy to hear that.');
     }else if(mood == 'sad')
@@ -234,9 +234,8 @@ const tellYourMood = ()=> {
         console.log('Do something usefull.');
     // console.log(`Your mood is ${mood}.`);
 }
-tellYourMood();
+// tellYourMood();
 // ==  ==  ==  ==  ==  ==  ==  ==  ==  ==  ==  ==
-
 
 
 
