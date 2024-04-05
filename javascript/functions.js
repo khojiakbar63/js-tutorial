@@ -239,10 +239,16 @@ const tellYourMood = ()=> {
 
 
 
+// EXTRA FUNCTIONS
+const greet = function(){
+    return function(...args){
+        return "Hello World";
+      
+    }
+}
 
 
-
-
+// greet();
 
 
 

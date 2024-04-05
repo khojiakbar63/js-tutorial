@@ -58,3 +58,11 @@ const aboutMe = {
 }
 // aboutMe.ability();
 
+// for(var title in aboutMe){
+//    console.log(title);
+//    console.log(aboutMe[title]);
+// }
+
+// for(let i = 0; i < aboutMe.length; i++){
+//    console.log(aboutMe());
+// }
