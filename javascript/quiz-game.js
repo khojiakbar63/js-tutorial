@@ -1,5 +1,7 @@
+
 // GAME QUESTIONS
-let gameQuestions = [
+// EASY
+let easyGameQuestions = [
    {
       question: "What is the capital of Palestine ?",
       option: [`
@@ -61,7 +63,7 @@ let gameQuestions = [
       answer: 'TORAH'
    },
    {
-      question: 'Who is the mother of Isa (AS)?',
+      question: 'Who was the mother of Isa (AS)?',
       option: [`
       A) Maryam 
       B) Khadija 
@@ -70,7 +72,7 @@ let gameQuestions = [
       answer: 'MARYAM'
    },
    {
-      question: 'Who is the wife of Pharaoh',
+      question: 'Who was the wife of Pharaoh',
       option: [`
       A) Maryam 
       B) Khadija 
@@ -79,7 +81,7 @@ let gameQuestions = [
       answer: 'ASIYA'
    },
    {
-      question: 'Who is the first man on earth?',
+      question: 'Who was the first man on earth?',
       option: [`
       A) Adam (AS) 
       B) Musa (AS) 
@@ -87,124 +89,229 @@ let gameQuestions = [
       `],
       answer: 'ADAM (AS)'
    },
-]
+];
+// MEDIUM
+let mediumGameQuestions = [
+   {
+      question: "Which angel is the head one in Jahannam?",
+      option: [`
+      A) Jibril 
+      B) Maalik 
+      C) Azrail
+      `],
+      answer: "MAALIK"
+   },
+   {
+      question: 'How old will people be in Jannah ? ',
+      option: [`
+      A) 30 
+      B) 25 
+      C) 33
+      `],
+      answer: '33',
+   },
+   {
+      question: `Which countries were conquered during Abu Bakr Siddiq (ra)'s time `,
+      option: [`
+      A) Iraq and Syria
+      B) Iraq and Rum 
+      C) Rum and Iran 
+      `],
+      answer: 'IRAQ AND SYRIA'
+   },
+   {
+      question: `Which cave was shelter for prophet Muhammad (saw) and Abu Bakr (ra) when emigrating to Madina?`,
+      option: [`
+      A) Savr
+      B) Hira 
+      C) Nur `],
+      answer: 'SAVR'
+   },
+   {
+      question: `What was the name of the camel which our prophet Muhammad (saw) rode to Madina when emigrating ?`,
+      option: [`
+      A) Azboa 
+      B) Jado 
+      C) Qaswa` ],
+      answer: 'QASWA'
+   },
+   {
+      question: 'How many days did prophet Muhammad pbuh and Abu Bakr (ra) stay in the cave when emigrating ?',
+      option: [`
+      A) 1 
+      B) 2 
+      C) 3 
+      `],
+      answer: '3'
+   },
+   {
+      question: `Which mosque was built first after prophecy`,
+      option: [`
+      A) Qubo 
+      B) Nabiy 
+      C) Aqso
+      `],
+      answer: 'QUBO'
+   },
+   {
+      question: `Who was the man that was mentioned in the Quran as a blind man?`,
+      option: [`
+      A) Abdulloh ibn Ummi Maktum 
+      B) Talha ibn Ubaydulloh 
+      C) Zubayr ibn Avvom
+      `],
+      answer: 'ABDULLOH IBN UMMI MAKTUM'
+   },
+   {
+      question: 'Who was the first child who converted to Islam ?',
+      option: [`
+      A) Ali (ra) 
+      B) Zubayr (ra) 
+      C) Urwa (ra) 
+      `],
+      answer: 'ALI (RA)'
+   },
+   {
+      question: `Who was Haroon (as) of this Ummah ?`,
+      option: [`
+      A) Urwa (ra)
+      B) Zubayr (ra) 
+      C) Ali (ra)
+      `],
+      answer: 'ALI (RA)'
+   },
+];
+// HARD 
+let hardGameQuestions = [
+   {
+      question: "1. Find Abu Lahaba's son's name!",
+      option: [`
+      A) Kannon 
+      B) Utayba 
+      C) Seen
+      `],
+      answer: "UTAYBA"
+   },
+   {
+      question: '2. What was the name of the donkey of prophet Muhammad pbuh ?',
+      option: [`
+      A) Ya'foor 
+      B) Ya'sar 
+      C) Joondooq
+      `],
+      answer: `YA'FOOR`,
+   },
+   {
+      question: `3. What is the meaning of Ya'foor ? `,
+      option: [`
+      A) Deer
+      B) Tiger 
+      C) Lion 
+      `],
+      answer: 'DEER'
+   },
+   {
+      question: `4. Which cave was shelter for prophet Muhammad (saw) and Abu Bakr (ra) when emigrating to Madina?`,
+      option: [`
+      A) Savr
+      B) Hira 
+      C) Nur `],
+      answer: 'SAVR'
+   },
+   {
+      question: `5. What was the name of the camel which our prophet Muhammad (saw) rode to Madina when emigrating ?`,
+      option: [`
+      A) Azboa 
+      B) Jado 
+      C) Qaswa` ],
+      answer: 'QASWA'
+   },
+   {
+      question: '6. How many days did prophet Muhammad pbuh and Abu Bakr (ra) stay in the cave when emigrating ?',
+      option: [`
+      A) 1 
+      B) 2 
+      C) 3 
+      `],
+      answer: '3'
+   },
+   {
+      question: `7. Which mosque was built first after prophecy`,
+      option: [`
+      A) Qubo 
+      B) Nabiy 
+      C) Aqso
+      `],
+      answer: 'QUBO'
+   },
+   {
+      question: `Who was the man that was mentioned in the Quran as a blind man?`,
+      option: [`
+      A) Abdulloh ibn Ummi Maktum 
+      B) Talha ibn Ubaydulloh 
+      C) Zubayr ibn Avvom
+      `],
+      answer: 'ABDULLOH IBN UMMI MAKTUM'
+   },
+   {
+      question: 'Who was the first child who converted to Islam ?',
+      option: [`
+      A) Ali (ra) 
+      B) Zubayr (ra) 
+      C) Urwa (ra) 
+      `],
+      answer: 'ALI (RA)'
+   },
+   {
+      question: `Who was Haroon (as) of this Ummah ?`,
+      option: [`
+      A) Urwa (ra)
+      B) Zubayr (ra) 
+      C) Ali (ra)
+      `],
+      answer: 'ALI (RA)'
+   },
+];
 // QUESTIONS ABOUT USER
 let questionsAboutUser = [
    `
    ~~~~~~~~~~~~~~~~~~~~~~~~~
-   Hello! Is it your first time 
-   playing this game?
+      COULD YOU TELL US YOUR
+      NAME?
    ~~~~~~~~~~~~~~~~~~~~~~~~~
    `,
+   `~~~~~~~~~~~~~~~~~~~~~~~~~
+      COULD YOU TELL US YOUR
+      AGE?
+    ~~~~~~~~~~~~~~~~~~~~~~~~~  
    `
-   ~~~~~~~~~~~~~~~~~~~~~~~~~
-   Then, what is your name?
-   ~~~~~~~~~~~~~~~~~~~~~~~~~
-   `];
+];
 
-// ------ ------ ------ ------
+// ~~~~~~<><><>------<><><>~~~~~
 
-
-let currentQuestionIndex = 0;
-let rightAnswers = []
-let wrongAnswers = []
-
-// GAME QUESTIONS FUNCTION
-function askQuestion(){
-   while(currentQuestionIndex < gameQuestions.length){
-
-      let checkAnswer = prompt(`
-      <>~~~~<>~~~~~<>~~~~~<>~~~~<>~~~~<>
-      ${gameQuestions[currentQuestionIndex].question}  
-      ${gameQuestions[currentQuestionIndex].option}
-      <>~~~~<>~~~~~<>~~~~~<>~~~~<>~~~~<>
-      `)
-      let upperCheckAnswer = checkAnswer.toUpperCase();
-      if(!upperCheckAnswer.toUpperCase()){
-         continue;
-      }else if(upperCheckAnswer !== gameQuestions[currentQuestionIndex].answer){
-         wrongAnswers++
-
-      }else{
-         rightAnswers++
-
-      }
-      currentQuestionIndex++
-   }
-   
-   console.log(`
-      ~ ~ ~ ~ ~ ~ ~ ~ ~ <><><><> ~ ~ ~ ~ ~ ~ ~ ~~
-      ~ ~ ~ ~ ~ ~ ~ ~ ~ <><><><> ~ ~ ~ ~ ~ ~ ~ ~~
-
-      Right answers: ${rightAnswers}
-      Wrong answers: ${wrongAnswers}
-
-      ~ ~ ~ ~ ~ ~ ~ ~ ~ <><><><> ~ ~ ~ ~ ~ ~ ~ ~~
-      ~ ~ ~ ~ ~ ~ ~ ~ ~ <><><><> ~ ~ ~ ~ ~ ~ ~ ~~
-   `);
-   giveComment()
-} 
-
-function giveComment(){
-
-      if(rightAnswers >= 10){
-         alert(`
-            <>~~~~<>~~~~~<Comment>~~~~~<>~~~~<>
-            ~ Barakalloh, MashaAlloh! ${userName} May Alloh 
-              give you more than that!
-
-            ~ You are bunderkind !!!
-            <>~~~~~<>~~~~~<>~~~~<>~~~~~<>~~~~~<>
-         `);
-
-      }else if(rightAnswers >= 8){
-         alert(`
-            <>~~~~<>~~~~~<Comment>~~~~~<>~~~~<>
-            ~ Barakalloh, MashaAlloh! ${userName}, you are
-              really close to bundergind!
-
-            ~ You have got high knowledge!
-            <>~~~~~<>~~~~~<>~~~~<>~~~~~<>~~~~~<>
-         `);
-      }else if(rightAnswers >= 6){
-         alert(
-            `<>~~~~<>~~~~~<Comment>~~~~~<>~~~~<>
-            ~ Barakalloh, MashaAlloh! ${userName}, you 
-              should work on you!
-
-            ~ You have a medium Islamic knowledge !!!
-             <>~~~~<>~~~~~<>~~~~~<>~~~~<>~~~~~<>
-            `
-         );
-      }else if(rightAnswers >= 2){
-         alert(
-            `<>~~~~<>~~~~~<Comment>~~~~~<>~~~~<>
-            ~ ${userName}, may Allah have mercy on you! 
-              It is really bad not knowing this basic 
-              knowledge.
-   
-            ~ You did not well !!!
-            <>~~~~<>~~~~~<>~~~~~<>~~~~<>~~~~<>
-            `
-         );
-      }else {
-         alert(`
-            <>~~~~<>~~~~~<Comment>~~~~~<>~~~~<>~~~~<>
-            ~ ${userName}, may Allah have mercy on you! 
-              It is really bad not knowing this basic 
-              knowledge.
-              
-            ~ It can not be worse than this!
-            <>~~~~<>~~~~~<>~~~~~<>~~~~<>~~~~<>
-            `);
-      }
-}
-// ASK ABOUT USER FUNCTION
+// 1. ASK ABOUT USER FUNCTION
 let aboutUserIndex = 0;
 let aboutAnswers = [];
 let userName;
-
 function askAboutUser(){
+   alert(`~~~~~~~~~~~~~~~~~~~~~~~~~
+         HELLO ! 
+         WELCOME TO THE GAME!
+         THIS GAME IS GONNA TEST 
+         YOUR ISLAMIC KNOWLEDGE!
+~~~~~~~~~~~~~~~~~~~~~~~~~                                                         
+                               -------------
+                              | Press ENTER |
+                               -------------
+   ~~~~~~~~~~~~~~~~~~~~~~~~~
+   `)
+   alert(`~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                       
+         SERVING FOR YOU IS GREAT HONOUR     
+         FOR US !!!                    
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                            
+                                 -------------
+                                | Press ENTER |
+                                 -------------`)
    while(aboutUserIndex < questionsAboutUser.length){
 
       let aboutAnswer = prompt(questionsAboutUser[aboutUserIndex])
@@ -215,7 +322,7 @@ function askAboutUser(){
       }else{
          aboutAnswers.push(upperAboutAnswer)
 
-         userName = aboutAnswers[1]
+         userName = aboutAnswers[0]
          aboutUserIndex++
       }
    }
@@ -223,12 +330,12 @@ function askAboutUser(){
    playGame()
 }
 
-// ASK USER TO PLAY OR NOT
+// 2. ASK USER TO PLAY OR NOT
 function playGame(){
    let agree = prompt(`
    <>~~~~<>~~~~~<>~~~~~<>~~~~<>~~~~<>
    
-   ${userName}, Would you test your knowledge ? [YES/NO] 
+   ${userName}, do you wanna test your knowledge ? [YES/NO] 
 
    <>~~~~<>~~~~~<>~~~~~<>~~~~<>~~~~<>
    
@@ -236,7 +343,7 @@ function playGame(){
    let upperAgree = agree.toUpperCase()
 
    if(upperAgree === 'YES'){
-      askQuestion()
+      showManual()
    }else if(upperAgree === 'NO'){
       alert(`
       <>~~~~<>~~~~~<>~~~~~<>~~~~<>~~~~<>
@@ -256,8 +363,154 @@ function playGame(){
    }
 }
 
+// 3. CHOOSE LEVEL FUNCTION
+function chooseLevel(){
+   let receiveLevel = prompt(`PLEASE CHOOSE YOUR LEVEL:
+         ~~~~~~~~~~~~~~~~~~~
+               | EASY
+               | MEDIUM
+               | HARD
+         ~~~~~~~~~~~~~~~~~~~
 
-// [HEAD] GAME OPERATOR
+   `)
+
+   let upperReceiveLevel = receiveLevel.toUpperCase();
+   if(upperReceiveLevel == 'EASY'){
+      askQuestion(easyGameQuestions);
+   }else if(upperReceiveLevel == 'MEDIUM'){
+      askQuestion(mediumGameQuestions);
+   }else if(upperReceiveLevel == 'HARD'){
+      askQuestion(hardGameQuestions);
+   }else{
+      alert('Invalid level!')
+   }
+}
+
+// 4. MANUAL
+function showManual(){
+   alert(`
+      !<><><><><><><><><{ MANUAL }<><><><><><><><>!
+
+      1. Please, be careful for extra spaces it is gonna 
+      cause a problem!
+
+      2. Don't worry about capital, upper, and lower 
+      cases, the program is gonna fix them!
+
+      ~~~~~~~~~~~~~ Press {ENTER} to start ~~~~~~~~~~~
+      !<><><><><><><><><><>----<><><><><><><><><><>!
+      `)
+      chooseLevel()
+      
+}
+// ------ ------ ------ ------
+
+// 5. GAME QUESTIONS FUNCTION
+
+let currentQuestionIndex = 0;
+let rightAnswers = []
+let wrongAnswers = []
+
+function askQuestion(level){
+   while(currentQuestionIndex < level.length){
+
+      let checkAnswer = prompt(`
+      <>~~~~<>~~~~~<>~~~~~<>~~~~<>~~~~<>
+      ${level[currentQuestionIndex].question}  
+      ${level[currentQuestionIndex].option}
+      <>~~~~<>~~~~~<>~~~~~<>~~~~<>~~~~<>
+      `)
+      let upperCheckAnswer = checkAnswer.toUpperCase();
+      if(!upperCheckAnswer.toUpperCase()){
+         continue;
+      }else if(upperCheckAnswer !== level[currentQuestionIndex].answer){
+         wrongAnswers++
+
+      }else{
+         rightAnswers++
+
+      }
+      currentQuestionIndex++
+   }
+   
+   console.log(`
+      ~ ~ ~ ~ ~ ~ ~ ~ ~ <><><><> ~ ~ ~ ~ ~ ~ ~ ~~
+      ~ ~ ~ ~ ~ ~ ~ ~ ~ <><><><> ~ ~ ~ ~ ~ ~ ~ ~~
+
+            Right answers: ${rightAnswers}
+            ------ ----- ---- 
+            Wrong answers: ${wrongAnswers}
+
+      ~ ~ ~ ~ ~ ~ ~ ~ ~ <><><><> ~ ~ ~ ~ ~ ~ ~ ~~
+      ~ ~ ~ ~ ~ ~ ~ ~ ~ <><><><> ~ ~ ~ ~ ~ ~ ~ ~~
+   `);
+   giveComment()
+} 
+
+// 6. GIVE COMMENT
+function giveComment(){
+
+      if(rightAnswers >= 10){
+         alert(`
+            <>~~~~<>~~~~~<Comment>~~~~~<>~~~~<>
+            ~ Barakalloh, MashaAlloh! ${userName} May Alloh 
+              give you more than that!
+            ~ You found ${rightAnswers} out of ${easyGameQuestions.length}.
+            ~ You are bunderkind !!!
+            <>~~~~~<>~~~~~<>~~~~<>~~~~~<>~~~~~<>
+         `);
+
+      }else if(rightAnswers >= 8){
+         alert(`
+            <>~~~~<>~~~~~<Comment>~~~~~<>~~~~<>
+            ~ Barakalloh, MashaAlloh! ${userName}, you are
+              really close to bundergind!
+            ~ You found ${rightAnswers} out of ${easyGameQuestions.length} questions.
+
+            ~ You have got high knowledge!
+            <>~~~~~<>~~~~~<>~~~~<>~~~~~<>~~~~~<>
+         `);
+      }else if(rightAnswers >= 6){
+         alert(
+            `
+            <>~~~~<>~~~~~<Comment>~~~~~<>~~~~<>
+            ~ Barakalloh, MashaAlloh! ${userName}, you 
+              should work on you!
+            ~ You found ${rightAnswers} out of ${easyGameQuestions.length} questions.
+
+            ~ You have a medium Islamic knowledge !!!
+             <>~~~~<>~~~~~<>~~~~~<>~~~~<>~~~~~<>
+            `
+         );
+      }else if(rightAnswers >= 2){
+         alert(`
+            <>~~~~<>~~~~~<Comment>~~~~~<>~~~~<>
+            ~ ${userName}, may Allah have mercy on you! 
+              It is really bad not knowing this basic 
+              knowledge.
+            ~ You found ${rightAnswers} out of ${easyGameQuestions.length} questions.
+         
+            ~ You did not well !!!
+            <>~~~~<>~~~~~<>~~~~~<>~~~~<>~~~~<>
+            `
+         );
+      }else {
+         alert(`
+            <>~~~~<>~~~~~<Comment>~~~~~<>~~~~<>~~~~<>
+            ~ ${userName}, may Allah have mercy on you! 
+              It is really bad not knowing this basic 
+              knowledge.
+            ~ You found 0 out of ${easyGameQuestions.length}.
+              
+            ~ It can not be worse than this!
+            <>~~~~<>~~~~~<>~~~~~<>~~~~<>~~~~<>
+            `);
+      }
+}
+
+
+
+// LAST [HEAD] GAME OPERATOR
 function gameOperator(){
    askAboutUser()
 }
