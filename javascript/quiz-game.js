@@ -211,65 +211,65 @@ let hardGameQuestions = [
       answer: 'DEER'
    },
    {
-      question: `4. Which cave was shelter for prophet Muhammad (saw) and Abu Bakr (ra) when emigrating to Madina?`,
+      question: `4. Which Prophet (as) had control of the Jinn and was able to talk to animals?`,
       option: [`
-      A) Savr
-      B) Hira 
-      C) Nur `],
-      answer: 'SAVR'
+      A) Sulaiman (as)
+      B) Dawud (as) 
+      C) Musa (as) `],
+      answer: 'SULAIMAN (AS)'
    },
    {
-      question: `5. What was the name of the camel which our prophet Muhammad (saw) rode to Madina when emigrating ?`,
+      question: `5. What does Zam Zam mean ?`,
       option: [`
-      A) Azboa 
-      B) Jado 
-      C) Qaswa` ],
-      answer: 'QASWA'
+      A) Drink 
+      B) Cure 
+      C) Stop` ],
+      answer: 'STOP'
    },
    {
-      question: '6. How many days did prophet Muhammad pbuh and Abu Bakr (ra) stay in the cave when emigrating ?',
+      question: '6. What was the relationship between Prophet Musa (as) and Propet Haroon (as) ?',
       option: [`
-      A) 1 
-      B) 2 
-      C) 3 
+      A) Cousins 
+      B) Brothers 
+      C) Friends 
       `],
-      answer: '3'
+      answer: 'BROTHERS'
    },
    {
-      question: `7. Which mosque was built first after prophecy`,
+      question: `7. Who was a first cousin of Prophet Muhammad pbuh ?`,
       option: [`
-      A) Qubo 
-      B) Nabiy 
-      C) Aqso
+      A) Abbos (ra) 
+      B) Umar (ra) 
+      C) Waleed (ra)
       `],
-      answer: 'QUBO'
+      answer: 'ABBOS (RA)'
    },
    {
-      question: `Who was the man that was mentioned in the Quran as a blind man?`,
+      question: `8. What issue was was Imam al-Bukhari born with ?`,
       option: [`
-      A) Abdulloh ibn Ummi Maktum 
-      B) Talha ibn Ubaydulloh 
-      C) Zubayr ibn Avvom
+      A) Blind 
+      B) Deaf
+      C) Heartache
       `],
-      answer: 'ABDULLOH IBN UMMI MAKTUM'
+      answer: 'BLIND'
    },
    {
-      question: 'Who was the first child who converted to Islam ?',
+      question: '9. In Jannah, what is Tuba ?',
       option: [`
-      A) Ali (ra) 
-      B) Zubayr (ra) 
-      C) Urwa (ra) 
+      A) fruit
+      B) tree 
+      C) door
       `],
-      answer: 'ALI (RA)'
+      answer: 'TREE'
    },
    {
-      question: `Who was Haroon (as) of this Ummah ?`,
+      question: `10. Which two surahs are for seeking protection in Allah from evil-eye and witchcraft ?`,
       option: [`
-      A) Urwa (ra)
-      B) Zubayr (ra) 
-      C) Ali (ra)
+      A) Yaseen and Ikhlas.
+      B) Falaq and Naas 
+      C) Yusoof and Kakhf
       `],
-      answer: 'ALI (RA)'
+      answer: 'FALAQ AND NAAS'
    },
 ];
 // QUESTIONS ABOUT USER
