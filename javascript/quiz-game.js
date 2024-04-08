@@ -90,6 +90,7 @@ let easyGameQuestions = [
       answer: 'ADAM (AS)'
    },
 ];
+
 // MEDIUM
 let mediumGameQuestions = [
    {
@@ -136,7 +137,7 @@ let mediumGameQuestions = [
       answer: 'QASWA'
    },
    {
-      question: 'How many days did prophet Muhammad pbuh and Abu Bakr (ra) stay in the cave when emigrating ?',
+      question: `How many days did prophet Muhammad pbuh and Abu Bakr (ra) stay in the cave when emigrating ?`,
       option: [`
       A) 1 
       B) 2 
@@ -163,7 +164,7 @@ let mediumGameQuestions = [
       answer: 'ABDULLOH IBN UMMI MAKTUM'
    },
    {
-      question: 'Who was the first child who converted to Islam ?',
+      question: `Who was the first child who converted to Islam ?`,
       option: [`
       A) Ali (ra) 
       B) Zubayr (ra) 
@@ -184,7 +185,7 @@ let mediumGameQuestions = [
 // HARD 
 let hardGameQuestions = [
    {
-      question: "1. Find Abu Lahaba's son's name!",
+      question: `1. Find Abu Lahaba's son's name!`,
       option: [`
       A) Kannon 
       B) Utayba 
@@ -193,7 +194,7 @@ let hardGameQuestions = [
       answer: "UTAYBA"
    },
    {
-      question: '2. What was the name of the donkey of prophet Muhammad pbuh ?',
+      question: `2. What was the name of the donkey of prophet Muhammad pbuh ?`,
       option: [`
       A) Ya'foor 
       B) Ya'sar 
@@ -227,7 +228,7 @@ let hardGameQuestions = [
       answer: 'STOP'
    },
    {
-      question: '6. What was the relationship between Prophet Musa (as) and Propet Haroon (as) ?',
+      question: `6. What was the relationship between Prophet Musa (as) and Propet Haroon (as) ?`,
       option: [`
       A) Cousins 
       B) Brothers 
@@ -254,7 +255,7 @@ let hardGameQuestions = [
       answer: 'BLIND'
    },
    {
-      question: '9. In Jannah, what is Tuba ?',
+      question: `9. In Jannah, what is Tuba ?`,
       option: [`
       A) fruit
       B) tree 
@@ -486,8 +487,6 @@ function giveComment(){
          alert(`
             <>~~~~<>~~~~~<Comment>~~~~~<>~~~~<>
             ~ ${userName}, may Allah have mercy on you! 
-              It is really bad not knowing this basic 
-              knowledge.
             ~ You found ${rightAnswers} out of ${easyGameQuestions.length} questions.
          
             ~ You did not well !!!
@@ -505,10 +504,38 @@ function giveComment(){
             ~ It can not be worse than this!
             <>~~~~<>~~~~~<>~~~~~<>~~~~<>~~~~<>
             `);
+            wannaSeeRight()
       }
 }
 
-
+// 7 WANNA SEE RIGHT ANSWERS
+function wannaSeeRight() {
+   let wanna = prompt(`Do you wanna see right answers ?`)
+   let upperWanna = wanna.toLocaleUpperCase();
+   if(upperWanna == 'YES'){
+      let chooseLevel = prompt(`Choose the level you solved EASY/\MEDIUM/\HARD: `)
+      let upperChooseLevel = chooseLevel.toLocaleUpperCase()
+      if(upperChooseLevel == 'EASY'){
+         for(let i = 0; i < easyGameQuestions.length; i++){
+            console.log(easyGameQuestions[i].answer)
+         }
+      }else if(upperChooseLevel == 'MEDIUM'){
+         for(let i = 0; i < mediumGameQuestions.length; i++){
+            console.log(mediumGameQuestions[i].answer)
+         }
+      }else if(upperChooseLevel == 'HARD'){
+         for(let i = 0; i < hardGameQuestions.length; i++){
+            console.log(hardGameQuestions[i].answer)
+         }
+      }else{
+         console.log('Invalid input!');
+      }
+   }else if(upperWanna == 'NO'){
+      alert('Ok! Bye!')
+   }else{
+      alert('Invalid input!')
+   }
+}
 
 // LAST [HEAD] GAME OPERATOR
 function gameOperator(){
