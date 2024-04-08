@@ -316,12 +316,13 @@ function askAboutUser(){
    while(aboutUserIndex < questionsAboutUser.length){
 
       let aboutAnswer = prompt(questionsAboutUser[aboutUserIndex])
-      let upperAboutAnswer = aboutAnswer.toLocaleUpperCase()
-      if(!upperAboutAnswer){
+      let firstCapital = aboutAnswer.charAt(0).toUpperCase() + aboutAnswer.slice(1).toLowerCase()
+
+      if(!firstCapital){
          continue;
 
       }else{
-         aboutAnswers.push(upperAboutAnswer)
+         aboutAnswers.push(firstCapital)
 
          userName = aboutAnswers[0]
          aboutUserIndex++
@@ -397,6 +398,8 @@ function showManual(){
 
       2. Don't worry about capital, upper, and lower 
       cases, the program is gonna fix them!
+
+      3. You must enter just what answer is not A,B,C
 
       ~~~~~~~~~~~~~ Press {ENTER} to start ~~~~~~~~~~~
       !<><><><><><><><><><>----<><><><><><><><><><>!
