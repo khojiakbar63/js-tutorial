@@ -513,19 +513,27 @@ function wannaSeeRight() {
    let wanna = prompt(`Do you wanna see right answers ?`)
    let upperWanna = wanna.toLocaleUpperCase();
    if(upperWanna == 'YES'){
-      let chooseLevel = prompt(`Choose the level you solved EASY/\MEDIUM/\HARD: `)
+      let chooseLevel = prompt(`WHICH LEVEL ANSWERS DO YOU WANNA SEE: EASY, MEDIUM, HARD: `)
       let upperChooseLevel = chooseLevel.toLocaleUpperCase()
       if(upperChooseLevel == 'EASY'){
          for(let i = 0; i < easyGameQuestions.length; i++){
-            console.log(easyGameQuestions[i].answer)
+            console.log(`
+            ${easyGameQuestions[i].question},
+            ---------
+            ${easyGameQuestions[i].answer}`)
          }
       }else if(upperChooseLevel == 'MEDIUM'){
-         for(let i = 0; i < mediumGameQuestions.length; i++){
-            console.log(mediumGameQuestions[i].answer)
+         for(let i = 0; i < mediumGameQuestions.length; i++){`
+            ${console.log(mediumGameQuestions[i].question)},
+            ---------
+            ${console.log(mediumGameQuestions[i].answer)}`
          }
       }else if(upperChooseLevel == 'HARD'){
-         for(let i = 0; i < hardGameQuestions.length; i++){
-            console.log(hardGameQuestions[i].answer)
+         for(let i = 0; i < hardGameQuestions.length; i++){`
+            ${console.log(hardGameQuestions[i].question)},
+            ---------
+            ${console.log(hardGameQuestions[i].answer)}
+            `
          }
       }else{
          console.log('Invalid input!');
